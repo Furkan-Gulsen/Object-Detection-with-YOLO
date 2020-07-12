@@ -60,22 +60,3 @@ if len(idxs) > 0:
               0.5, (0,255,255), 2)
 
 cv2.imshow("Output", image)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
