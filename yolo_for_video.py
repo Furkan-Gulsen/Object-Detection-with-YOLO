@@ -75,7 +75,7 @@ while(True):
         fourcc = cv2.VideoWriter_fourcc(*'MJPG')
         vout = cv2.VideoWriter()
         vout.open('output.avi',fourcc,fps,sz,True)
-
+    
     vout.write(frame)
     # cv2.imshow('Output',frame)
     # if cv2.waitKey(fps) & 0xFF == ord('q'):
